@@ -10,16 +10,22 @@ let processingQueue = new Set();
 let checkInterval;
 let isPaused = false;
 let unpauseTimeout;
+let isCounterVisible = false;
 
 // Function to update counter with animation
 function updateCounter() {
+  if (!isCounterVisible) {
+    isCounterVisible = true;
+    counter.classList.add('active');
+  }
   counter.textContent = `Dashes replaced: ${replacementCount}`;
-  counter.classList.add('active');
   
   clearTimeout(counterTimeout);
   counterTimeout = setTimeout(() => {
+    isCounterVisible = false;
     counter.classList.remove('active');
-  }, 300);
+    replacementCount = 0; // Reset the counter
+  }, 1300);
 }
 
 // Function to process text content
