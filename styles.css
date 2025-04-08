@@ -1,0 +1,30 @@
+.emdash-counter {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #10B981;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 10000;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  font-family: system-ui, -apple-system, sans-serif;
+  opacity: 0.9;
+}
+
+.emdash-counter.active {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.replaced-text {
+  display: inline;
+  background-color: #F0FDF4;
+  transition: background-color 1s ease;
+}
+
+.replaced-text.fade {
+  background-color: transparent;
+}
