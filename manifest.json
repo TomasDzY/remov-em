@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Em Dash Remover",
+  "name": "Remov'em",
   "version": "1.0",
   "description": "Removes em dashes (–) from ChatGPT responses",
   "permissions": ["scripting"],
