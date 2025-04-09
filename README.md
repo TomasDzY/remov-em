@@ -4,9 +4,11 @@ Tired of ChatGPT giving you away with those dramatic and totally overused em das
 Remov'em is a simple Chrome extension that removes those weird dashes from ChatGPT responses so your posts, emails, and messages don’t scream “written by AI.”
 
 ## Why use it?
-ChatGPT loves em dashes.
-People notice.
-Makes your writing look more natural - like you actually wrote it.
+ChatGPT loves em dashes
+
+People notice
+
+Makes your writing look more natural - like you actually wrote it
 
 ## How it works:
 Install the extension
