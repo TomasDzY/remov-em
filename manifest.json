@@ -3,7 +3,6 @@
   "name": "Remov'em",
   "version": "1.0",
   "description": "Removes em dashes (–) from ChatGPT responses",
-  "permissions": ["scripting"],
   "host_permissions": [
     "https://chat.openai.com/*",
     "https://chatgpt.com/*"
